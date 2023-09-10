@@ -10,7 +10,7 @@ import data from "../../data/portfolio.json";
 import { ISOToDate, useIsomorphicLayoutEffect } from "../../utils";
 import { getAllPosts } from "../../utils/api";
 
-const contact = () => {
+const Contact = () => {
   const text = useRef();
 
   return (
@@ -37,9 +37,9 @@ const contact = () => {
               src="https://docs.google.com/forms/d/e/1FAIpQLSeT3mUwj6CiOPnkrTvsQC_Lx37WCqkkX6UMHo5eimauxZ4HMA/viewform?embedded=true"
               width="640"
               height="890"
-              frameborder="0"
-              marginheight="0"
-              marginwidth="0"
+              frameBorder="0"
+              marginHeight="0"
+              marginWidth="0"
             >
               Loading…
             </iframe>
@@ -51,4 +51,4 @@ const contact = () => {
   );
 };
 
-export default contact;
+export default Contact;
